@@ -1,39 +1,40 @@
-# 011_cloneInstagram
+# 📸 Clone de Instagram
 
-This template should help get you started developing with Vue 3 in Vite.
+Un clon básico de Instagram construido con Vue 3 + Vite + Firebase.
 
-## Recommended IDE Setup
+![Vista previa del sistema](./public/screenshot.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Type Support for `.vue` Imports in TS
+## 🚀 Demo en vivo
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+🔗 [Ver proyecto desplegado en Vercel](https://instagram-clone-murex-pi.vercel.app)
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Tecnologías
 
-## Project Setup
+- Vue 3
+- Vite
+- Firebase (Auth, Firestore, Storage)
+- Pinia
+- TailwindCSS + DaisyUI
 
-```sh
+---
+
+## 🧪 Funcionalidades
+
+- Registro e inicio de sesión con correo o Google
+- Subida de fotos con descripción
+- Feed de publicaciones en tiempo real
+- Like y comentarios (opcional)
+
+---
+
+## 📦 Instalación local
+
+```bash
+git clone https://github.com/TU_USUARIO/011_cloneInstagram.git
+cd 011_cloneInstagram
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
