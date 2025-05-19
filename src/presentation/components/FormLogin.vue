@@ -72,39 +72,39 @@ defineOptions({
                     v-model="authForm.email"
                     type="text"
                     placeholder="Telefono, usuario o correo electrónico"
-                    class="input input-bordered w-full bg-white/5 focus:ring-2 focus-ring-blue-500  text-xs"
+                    class="input focus:outline-none w-full bg-white/5 text-xs"
                 >
                 <input 
                     v-model="authForm.password"
                     type="password"
                     placeholder="Contraseña"
-                    class="input input-bordered w-full bg-white/5 focus:ring-2 focus-ring-blue-500  text-xs"
+                    class="input focus:outline-none w-full bg-white/5 text-xs"
                 >
                 <button 
                     type="submit"
-                    class="btn btn-primary w-full text-white hover:bg-base-300 mt-2"
+                    class="btn bg-blue-500 w-full text-white mt-2 hover:bg-blue-600"
                 >
-                    Login
+                    Entrar
                 </button>
                 <div class="divider text-lg font-bold text-gray-300" >o</div>
                 <!-- loggin google -->
                 <button 
                     @click="LoginGoogleAccion"
-                    class="btn btn-outline w-full"
+                    class="bg-black w-full flex items-center justify-center px-4 py-2 text-sm rounded outline-none border-none cursor-pointer text-[#0095f6] hover:font-medium"
                 >
-                    <img :src="GoogleIcon" alt="google-icon" class="w-6 h-6 mr-2">
+                    <img :src="GoogleIcon" alt="google-icon" class="w-7 h-7 mr-2">
                     Iniciar sesión con Google
                 </button>
 
                 <a 
-                    href="#"
+                    href="https://www.instagram.com/accounts/password/reset/"
                     class="text-sm text-white"
                 >
                     ¿Has olvidado tu contraseña?
                 </a>
 
             </form>
-            <div class="mt-8 text-center text-sm">
+            <div class="mt-12 text-center text-sm">
                 <p>¿No tienes cuenta?
                     <RouterLink 
                         to="/register"
